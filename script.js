@@ -146,3 +146,34 @@ document.querySelector("#matsss").innerHTML =  rss;
 function rndm(){
   document.querySelector("#rnd"). innerHTML =Math.round( (Math.random() * 10)+1);
 }
+let BangladeshCricketTeam = ["Tamim", "Mushfik","Riyad"," Mussaddek","mustafij"];
+let bangladeshWomanFootballTeam = ["Ritu porna", " Sorkar ", " sanjida", "rita ", "maria "];
+let zilla = ["sylhet","dhaka","Rongpur","Borishal","Nuakhali"];
+
+let dulalAj = {
+  name:" Dulal Ahmed Jalal",
+  age: 30,
+  hight:"5.3 inc",
+  weight: "67 kg",
+  occupation:"Teacher",
+  active: true
+};
+let laptop = {
+  name: "Dell inspire",
+  brand: "DELL",
+  Ram_GB: 6,
+  Hdd_GB: 500,
+  Processor: "Core i 3 5GU",
+  active: true
+};
+
+let School = {
+  name: "Mohidpur GPS",
+  post: 6,
+  teacher:4,
+  PostNull:2,
+  Sutdent:188,
+  No:116,
+  govt: true
+  
+}
