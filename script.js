@@ -177,3 +177,90 @@ let School = {
   govt: true
   
 }
+// ============
+let x =10;
+while(x <= 50){
+  document.querySelector("#wh").innerHTML += " , " + x;
+  x++;
+}
+//================
+for(i=20; i<=60; i++){
+ document.querySelector("#fr").innerHTML += " ," + i;
+}
+//==========
+function addddddd(){
+let fstttt = document.querySelector("#fstttt").value;
+let  scndtttt = document.querySelector("#scndtttt").value;
+ document.querySelector("#ad23d").innerHTML ="Result :  " +( (fstttt *1) + (scndtttt *1));
+}
+//=======================================
+
+function twReturn(a){
+
+  document.querySelector("#twp").innerHTML = a ;
+  document.querySelector("#cntsss").innerHTML = 500 - a;
+  let y = a;
+  for(y; y <=500; y++){
+    document.querySelector("#twpss3s").innerHTML +=" ," + y ;
+  }
+}
+ //===================================
+ function lpyr(k){
+  if(((k % 4 == 0)  && ( k % 100 != 0) || k % 400 == 0) ){
+  document.querySelector("#yrrslt").innerHTML = " This " + k + " is Leap Year !!";
+  }else{
+    document.querySelector("#yrrslt").innerHTML = " This " + k + " is Not Leap Year !!";
+  }
+ }
+
+let Soumya, nmbr2s; 
+ function smya(m){
+    Soumya = m;
+ }
+ function rabbi(n){
+  nmbr2s = n;
+ }
+ function bTeam(){
+  const Bangladesh_T20_Team = ["Sabbir" , "Litton" , "Nurul" ," mehedi" , "Riad" , "mushfiq"];
+  Bangladesh_T20_Team[4] = Soumya;
+  Bangladesh_T20_Team[5] = nmbr2s;
+  document.querySelector("#nteam"). innerHTML = Bangladesh_T20_Team;
+
+ }
+//==================================
+function rarra(){
+  let arr = [2,45,4,55,12,42,34,78];
+
+  document.querySelector("#srtarr").innerHTML = arr.sort(function(a, b){return a - b});
+  document.querySelector("#arrr").innerHTML = arr.reverse();
+}
+//=================================
+const Adress = {     
+     Vill: "  Ojanapur",
+     PostCode: 3100,
+     upozilla: "sodor",
+     fullAdress: ()=>{
+      return this.Vill + " " + this.PostCode + " " + this.upozilla; 
+    },
+     villandPost: ()=>{
+      return this.vill + "  " + this.PostCode;
+     }
+     };
+
+//==========================================
+let text = "I love coding";
+function rvrsstr(str){
+  let newStr = "";
+  for(let i = str.length -1; i >=0; i--){
+    newStr += str[i];
+     
+  }
+  return newStr;
+}
+document.querySelector("#rbsrr").innerHTML = rvrsstr(text);
+//===============================================================
+let arrlist = [" bangladesh", " nepal", "vutan", " america", " srilanka", " itali"];
+for(let ii=0; ii <= arrlist.length; ii++){
+  document.querySelector("#sdsdsd").innerHTML += "<li>" + arrlist[ii] + "</li>";
+}
+
